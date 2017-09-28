@@ -1,4 +1,7 @@
 #!bin/bash
 cp attract.cfg $HOME/.attract/
-sleep 3
+echo " Mise à Jour Terminée "
+sleep 5
+cd ..
+rm -r maj
 exit
